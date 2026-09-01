@@ -4,9 +4,9 @@
 
 A 3D relief map of the cross-border Ardennes massif, France and Belgium, submitted to the **IGN Cartography Competition 2026** on the theme "Mille et une forêts". A1 portrait poster, 594 × 841 mm, June 2026.
 
-![Poster](assets/one-border-poster.jpg)
+![Poster](assets/one-border-poster.png)
 
-📄 [Full-resolution poster (PDF)](TODO-lien-drive) · 🗺️ IGN Cartography Competition 2026
+📄 [Full-resolution poster (PDF)](https://drive.google.com/file/d/1d7_ktCymUfDaL2s1MDju72X62SsKJJz-/view?usp=sharing) · 🗺️ IGN Cartography Competition 2026
 
 ## About
 
@@ -20,10 +20,12 @@ The European Union removed borders for people with Schengen and for goods with t
 
 **The map argues this with light.** Stage lighting picks out what sits under protection and leaves the rest in shadow, so you read every protection edge as a lighting boundary. Forest inside a protected site comes up pale green, other biotopes inside it come up sand. The same forest outside protection goes dark green, and the rest of the unprotected ground goes near black. The border runs as an orange thread, rivers as cyan.
 
+![Legend](assets/one-border-legend.png)
+
 | | | |
 |---|---|---|
 | <img src="assets/one-border-natura-edge-1.png" width="280"> | <img src="assets/one-border-natura-edge-2.png" width="280"> | <img src="assets/one-border-unprotected-canopy.png" width="280"> |
-| A protection edge following the border | The same break, seen obliquely | Continuous forest, none of it protected |
+| A protection edge following the border | The same break, seen obliquely | Terrain without lighting |
 
 ## Pipeline
 
@@ -44,7 +46,7 @@ Elevation and forest data come from two national providers that share neither gr
 | | |
 |---|---|
 | <img src="assets/one-border-terrain-displacement.png" width="380"> | <img src="assets/one-border-blender-viewport.png" width="380"> |
-| Displaced terrain before shading, vector layers overlaid | Blender viewport, masks driving the material |
+| Terrain without lighting, vector layers overlaid | Blender viewport, masks driving the material |
 
 ## Data sources
 
