@@ -1,0 +1,41 @@
+venv/
+__pycache__/
+.env
+
+# Fichiers maîtres binaires (Blender, Affinity, QGIS) et rendus pleine résolution.
+# Déjà synchronisés par Google Drive, trop lourds pour GitHub (jusqu'à 232 Mo pièce).
+sources/
+
+# Exports finaux. Le PDF de l'affiche A1 fait 78 Mo, au-dessus du seuil GitHub.
+# Version pleine résolution partagée par lien Drive depuis le README.
+output/
+
+# Données sources brutes (23 Go), téléchargeables librement.
+# Voir la section Pipeline du README pour les liens et la procédure.
+data/raw/
+
+# Découpes et fusions dérivées des jeux publics ci-dessus, régénérables dans QGIS.
+# Seuls restent versionnés dept08, les .vrt et frontiere_buffer_clean.gpkg,
+# qui documentent le montage ou relèvent d'un nettoyage manuel.
+data/processed/*.tif
+data/processed/*.png
+data/processed/*.aux.xml
+data/processed/*.ovr
+data/processed/natura2000_*.gpkg
+data/processed/frontiere_fr_be.gpkg
+data/processed/frontiere_fr_be_buffer.gpkg
+data/processed/frontiere_mask_poly.gpkg
+data/processed/foret_*.gpkg
+data/processed/compo_*.gpkg
+data/processed/region_grand_est.gpkg
+data/processed/regions_france.gpkg
+data/processed/contours_10m_fr.gpkg
+
+# Sauvegardes automatiques et verrous d'édition
+*.blend1
+*~lock~
+*.swp
+*~
+
+.DS_Store
+Thumbs.db
