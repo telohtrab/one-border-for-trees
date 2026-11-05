@@ -80,7 +80,7 @@ QGIS, Blender 5.1, Affinity 3, Claude Code. I used Claude Code to research sourc
 
 ## Typefaces
 
-[Steps Mono](https://velvetyne.fr/fonts/steps-mono/) by Jean-Baptiste Morizot and Raphaël Bastide, released by Velvetyne, for the legend and title block. [Public Sans](https://github.com/uswds/public-sans) by the U.S. Web Design System, for the body text. Both under the SIL Open Font License 1.1.
+[Steps Mono](https://velvetyne.fr/fonts/steps-mono/) by Jean-Baptiste Morizot and Raphaël Bastide, released by Velvetyne, for the poster title and the legend block. [Public Sans](https://github.com/uswds/public-sans) by the U.S. Web Design System, for the body text. Both under the SIL Open Font License 1.1.
 
 ## Credits
 
